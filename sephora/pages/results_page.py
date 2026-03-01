@@ -1,3 +1,6 @@
+from sephora.pages.welcome_page import welcomePage
+
+
 class ResultsPage:
 
     def __init__(self,page):

@@ -21,3 +21,10 @@ class welcomePage():
     def close_popup_sign_in(self):
         close_btn=self.page.locator("[class='css-191rupl e15t7owz0']")
         close_btn.click()
+def click_new_tab(self):
+    new_tab = self.page.locator("[class='css-981tcb e15t7owz0']")
+    new_tab.click()
+
+ def click_sale_tab(self):
+     sale_tab = self.page.locator("[class="css-ankksw e15t7owz0"']")
+     sale_tab.click()
